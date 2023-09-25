@@ -100,7 +100,7 @@
         %>
         </div>
         
-        <p><a href="home.jsp">Back to Login</a></p>
+        <p><a href="index.jsp">Back to Homepage</a></p>
     </div>
 </body>
 </html>

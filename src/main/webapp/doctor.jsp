@@ -61,7 +61,7 @@
             <ul>
                 <li><a href="doctorprofile.jsp">View Doctor Profile</a></li>
                 <li><a href="doctorappointment.jsp">View Appointments</a></li>
-                <li><a href="home.jsp">Logout</a></li>
+                <li><a href="logout">Logout</a></li>
             </ul>
         </nav>
     </div>
