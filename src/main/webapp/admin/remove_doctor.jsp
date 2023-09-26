@@ -85,7 +85,7 @@
                 try {
                     Connection con = ConnectionProvider.getCon();
                     Statement st = con.createStatement();
-                    int rowsAffected = st.executeUpdate("DELETE FROM Doctors WHERE DoctorID = " + doctorID);
+                    int rowsAffected = st.executeUpdate("DELETE FROM Doctors WHERE id = " + doctorID);
                     if (rowsAffected > 0) {
                         out.println("<p class='success-msg'>Doctor Removed Successfully!!</p>");
                     } else {
